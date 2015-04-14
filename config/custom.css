@@ -70,8 +70,11 @@
   	color: #b2e1ff;
 	background:#003972
 }
-li.result span.col {
+.teambuilder-results li.result span.col {
   color: #007fff;
+}
+.message li.result span.col {
+  color: #000;
 }
 .roomlist {
   color: #b2e1ff
