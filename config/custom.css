@@ -10,7 +10,15 @@ body {
 }
 .header .logo {
 	display:none
-}/*
+}
+li[id *= "champinnah"] button.userbutton.username:hover, li[id *= "frntierblade"] button.userbutton.username:hover {
+    background: rgb(252,183,63);
+}
+
+li[id *= "champinnah"], li[id *= "frntierblade"] {
+    background: rgba(252,183,63, .5);
+}
+/*
 .roomlist a.ilink {
   color: #b2e1ff;
   text-shadow: 1px 1px #000;
